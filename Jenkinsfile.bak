@@ -1,12 +1,12 @@
 pipeline {
-    agent {label "docker-build-node"}
+    agent any 
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('dockerhub')
+    DOCKERHUB_CREDENTIALS = credentials('valaxy-dockerhub')
     }
     stages { 
         stage('SCM Checkout') {
             steps{
-            git 'https://github.com/ba-apu/project-rnd.git'
+            git 'https://github.com/ravdy/nodejs-demo.git'
             }
         }
 
@@ -32,3 +32,4 @@ post {
         }
     }
 }
+
