@@ -1,0 +1,53 @@
+/*
+
+* Override Pages default styles or create your own styles here
+
+*/
+/*-----shariful----*/
+.btn_right{
+        float: right;
+    }
+.btn_left{
+	float: left;
+}
+.mendatory{
+	color: red;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+.query_block{
+	background-color: silver;
+    height: auto;
+    padding: 7px;
+   
+}
+.query_block_btn{
+	background-color: white;
+    border: 1px solid silver;
+    /* padding: 1px; */
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-left: 5px;
+}
+.gqb{
+	margin-left: 5px;
+}
+/*select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}*/
+
+
+
+
+
+
+
+
